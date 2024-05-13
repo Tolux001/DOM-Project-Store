@@ -131,11 +131,11 @@ button {
   font-size: 18px;
   font-family: var(--headingFont);
   font-weight: 500;
-  animation: bouncing 2s ease-in-out 0.2s infinite normal;
   -webkit-animation: bouncing 2s ease-in-out 0.2s infinite normal;
   -moz-animation: bouncing 2s ease-in-out 0.2s infinite normal;
   -ms-animation: bouncing 2s ease-in-out 0.2s infinite normal;
   -o-animation: bouncing 2s ease-in-out 0.2s infinite normal;
+  animation: bouncing 2s ease-in-out 0.2s infinite normal;
 }
 
 .btn:hover,
@@ -277,8 +277,8 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-flow: row nowrap;
-    -ms-flex-flow: row nowrap;    
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;    
   }  
   .hero--image {
     display: block;
