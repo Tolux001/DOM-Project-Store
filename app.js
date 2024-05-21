@@ -1,7 +1,7 @@
 const items = [
 	{
 		id: 1,
-		title: "UTC Time",
+		title: "UTC Time Date",
 		img: "./images/item-1.png",
 		link: `https://tolux-hng-stage-one-task.netlify.app/`,
 	},
@@ -21,7 +21,7 @@ const items = [
 		id: 4,
 		title: "Nav Bar",
 		img: "./images/item-4.png",
-		link: ``,
+		link: `https://github.com/Tolux001/Nav-Bar.git`,
 	},
 	{
 		id: 5,
@@ -33,7 +33,7 @@ const items = [
 		id: 6,
 		title: "Review Viewer",
 		img: "./images/item-6.png",
-		link: ``,
+		link: `https://tolux-review-viewer.netlify.app/`,
 	},
 	{
 		id: 7,
