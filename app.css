@@ -258,7 +258,7 @@ button:hover {
 
 }
 .container img {
-  max-width: 25rem;
+  max-width: 20rem;
 }
 .container p {
   color: var(--black-design);
@@ -294,6 +294,9 @@ button:hover {
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: center;
+  }
+  .container img {
+    max-width: 25rem;
   }
 }
 
