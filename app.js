@@ -65,6 +65,12 @@ const items = [
 		img: "./images/item-11.png",
 		link: `https://tolux-menu-project.netlify.app/`,
 	},
+	{
+		id: 12,
+		title: "Form Validator",
+		img: "./images/item-12.png",
+		link: `https://tolux-form-validator.netlify.app/`,
+	},
 ];
 
 // container for the page content 
