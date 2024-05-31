@@ -71,6 +71,12 @@ const items = [
 		img: "./images/item-12.png",
 		link: `https://tolux-form-validator.netlify.app/`,
 	},
+	{
+		id: 13,
+		title: "Video Background",
+		img: "./images/item-13.png",
+		link: `https://toluxbgvideo.netlify.app/`,
+	},
 ];
 
 // container for the page content 
