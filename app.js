@@ -79,7 +79,7 @@ const items = [
 	},
 ];
 
-// container for the page content 
+// container for the page content
 let container = document.querySelector(".project--container");
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -92,8 +92,13 @@ window.addEventListener("DOMContentLoaded", () => {
             	</a>
           </div>
 		`;
-
 	});
 	itemsContainer = itemsContainer.join("");
 	container.innerHTML = itemsContainer;
+});
+
+// preloader
+const preloader = document.querySelector(".preloader");
+window.addEventListener("load", () => {
+	preloader.classList.add("hide-preloader");
 });
